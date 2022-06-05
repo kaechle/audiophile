@@ -1,0 +1,10 @@
+.codeedit
+.nova
+node_modules
+.cache
+.parcel-cache
+dist
+.env
+.DS_Store
+coverage
+*.sketch
