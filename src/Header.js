@@ -1,5 +1,3 @@
-import { Fragment } from "react"
-import { Popover, Transition } from "@headlessui/react"
 import HeroImage from "./assets/home/desktop/image-hero.jpg"
 
 const Header = () => {
