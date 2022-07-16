@@ -1,4 +1,5 @@
 import ImageBestGear from "./assets/shared/desktop/image-best-gear.jpg"
+import ImageEarphones from "./assets/product-yx1-earphones/desktop/image-gallery-2.jpg"
 
 const Main = () => {
   return (
@@ -10,7 +11,17 @@ const Main = () => {
       </div>
       <div></div>
       <div></div>
-      <div></div>
+
+      <div className='flex place-content-between pb-20'>
+        <div class='w-1/2'>
+          <img className='rounded-lg' src={ImageEarphones} alt='The best image gear' />
+        </div>
+        <div className='flex flex-col w-1/2 justify-center rounded-lg bg-light-200'>
+          <h3>YX1 EARPHONES</h3>
+          <button class='border'>see product</button>
+        </div>
+      </div>
+
       <div className='flex place-content-between'>
         <div className='flex flex-col w-1/2 justify-center'>
           <h2 className='pb-12 uppercase text-5xl font-bold'>
